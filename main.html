@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/doujin.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="search">
+            <form action="/search" method="post">
+                <br>
+                <input type="text" id="query" onkeyup="search()">
+                <input type="button" value="Pesquisar" onclick="search()">
+            </form>
+        </div>
+
+        <div class="content-body">
+        </div>
+    </div>
+
+    <div class="popUp">
+
+    </div>
+    
+    <script src="scripts/err.js"></script>
+    <script src="scripts/search.js"></script>
+
+    <script>
+        window.onload = ( ) => {
+            search ( "a" )
+        }
+    </script>
+</body>
+</html>
