@@ -1,3 +1,0 @@
-function ErrorFunction ( err ) { 
-    
-}
